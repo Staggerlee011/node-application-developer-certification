@@ -60,3 +60,12 @@ preload.js : this is preloaded
 app.js: this is the main file
 ```
 
+## node_modules
+
+you can delete all the node_modules folder via the below node cli call
+
+- note this command is platform independent
+
+``` node
+node -e "fs.rmdirSync('node_modules', {recursive: true})"
+```

@@ -1,0 +1,26 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "my npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Staggerlee011/node-application-developer-certification.git"
+  },
+  "keywords": [
+    "learning",
+    "development"
+  ],
+  "author": "staggerlee011",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Staggerlee011/node-application-developer-certification/issues"
+  },
+  "homepage": "https://github.com/Staggerlee011/node-application-developer-certification#readme",
+  "dependencies": {
+    "pino": "^6.7.0"
+  }
+}

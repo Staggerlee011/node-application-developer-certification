@@ -4,7 +4,8 @@
   "description": "my npm package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/Staggerlee011/node-application-developer-certification#readme",
   "dependencies": {
     "pino": "^6.7.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3"
   }
 }

@@ -1,18 +1,20 @@
 # Package.json 6%
 
-## Package configuration
+- [package.json](package-json.md)
+- [package-lock.json](package-lock.md)
+- [npm](npm.md)
+- [npx](npx.md)
+- [semantic versioning (semver)](semver.md)
+- [node_modules](node_modules.md)
 
-`package.json` is a json config file that shows details of the package and its dependencies. 
+## npm commands
 
-the default fields are:
-
-- name – the name of the package
-- version – the current version number of the package
-- description – a package description, this is used for meta analysis in package registries
-- main – the entry-point file to load when the package is loaded
-- scripts – namespaced shell scripts, these will be discussed later in this section
-- keywords – array of keywords, improves discoverability of a published package
-- author – the package author
-- license – the package license.
-
-## Dependency management
+- [npm install](npm-install.md)
+- [npm uninstall](npm-uninstall.md)
+- [npm ls](npm-ls.md)
+- [npm show](npm-show.md)
+- [npm outdated](npm-outdated.md)
+- [npm update](npm-update.md)
+- [npm init](npm-init.md)
+- []()
+- []()
